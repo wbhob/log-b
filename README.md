@@ -7,7 +7,7 @@ This project uses the division property of logarithms to determine the logarithm
 ## Usage
 
 ```typescript
-import logBase from 'log-b'
+import logBase from 'log-base-n'
 
 logBase(2, 8) // returns 3
 ```
@@ -15,7 +15,7 @@ logBase(2, 8) // returns 3
 ### ES5 Usage
 
 ```javascript
-var logBase = require('log-b').default // this is because it is an ES6 default export
+var logBase = require('log-base-n').default // this is because it is an ES6 default export
 
 logBase(2, 8) // returns 3
 ```
