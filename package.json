@@ -1,10 +1,10 @@
 {
-  "name": "log-base",
+  "name": "log-b",
   "version": "1.0.0",
   "description": "A simple starter for typescript",
   "main": "dist/index.js",
   "bin": {
-    "log-base": "dist/bin.js"
+    "log-b": "dist/bin.js"
   },
   "scripts": {
     "test": "jest",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbhob/log-base.git"
+    "url": "git+https://github.com/wbhob/log-b.git"
   },
   "author": "Wilson Hobbs <wilsonhobbs1@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wbhob/log-base/issues"
+    "url": "https://github.com/wbhob/log-b/issues"
   },
-  "homepage": "https://github.com/wbhob/log-base#readme",
+  "homepage": "https://github.com/wbhob/log-b#readme",
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "@types/node": "^11.12.2",
