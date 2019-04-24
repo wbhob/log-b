@@ -1,10 +1,10 @@
 {
-  "name": "log-b",
+  "name": "log-base-n",
   "version": "1.0.0",
-  "description": "A simple starter for typescript",
+  "description": "Logarithms of any base using the change of base principle",
   "main": "dist/index.js",
   "bin": {
-    "log-b": "dist/bin.js"
+    "log-base": "dist/bin.js"
   },
   "scripts": {
     "test": "jest",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbhob/log-b.git"
+    "url": "git+https://github.com/wbhob/log-base-n.git"
   },
   "author": "Wilson Hobbs <wilsonhobbs1@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wbhob/log-b/issues"
+    "url": "https://github.com/wbhob/log-base-n/issues"
   },
-  "homepage": "https://github.com/wbhob/log-b#readme",
+  "homepage": "https://github.com/wbhob/log-base-n#readme",
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "@types/node": "^11.12.2",
