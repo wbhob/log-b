@@ -1,6 +1,6 @@
 {
   "name": "log-base-n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Logarithms of any base using the change of base principle",
   "main": "dist/index.js",
   "bin": {
