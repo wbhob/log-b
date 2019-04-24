@@ -1,13 +1,23 @@
-# typescript-starter
+# log-base
 
-A simple starter for Node TypeScript projects with tests, CI, and scripts.
+Find the logarithm of any number with any base in code or with the command line.
+
+This project uses the division property of logarithms to determine the logarithm with any base. Read more [here](https://people.richland.edu/james/lecture/m116/logs/properties.html).
 
 ## Usage
 
 ```typescript
-import { sum } from 'typescript-starter'
+import logBase from 'log-base'
 
-sum(1, 5) // returns 6
+logBase(2, 8) // returns 3
+```
+
+### ES5 Usage
+
+```javascript
+var logBase = require('log-base').default // this is because it is an ES6 default export
+
+logBase(2, 8) // returns 3
 ```
 
 ## Contributing

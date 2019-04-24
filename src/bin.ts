@@ -1,11 +1,20 @@
-import { sum } from './sum'
+import { logBase } from './log-base'
 
-let result;
-console.log(typeof (+process.argv[1]));
+let result
 
 if (process.argv[3]) {
-  result = sum(+process.argv[2], +process.argv[3])
+  result = logBase(+process.argv[2], +process.argv[3])
+} else if (process.argv[2]) {
+  result = logBase(+process.argv[1], +process.argv[2])
 } else {
-  result = sum(+process.argv[1], +process.argv[2])
+  console.log(`
+Invalid arguments.
+
+Usage:
+$ log-base <base> <argument>
+
+(Reads "log base BASE of ARGUMENT")
+  `)
 }
+
 console.log(result)
